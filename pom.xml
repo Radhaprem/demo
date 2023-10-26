@@ -11,6 +11,22 @@
     <maven.compiler.target>1.7</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>radha-releases</name>
+        <url>http://13.50.234.28:8081/artifactory/Radha-repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>central</id>
+        <name>radha-snapshots</name>
+        <url>http://13.50.234.28:8081/artifactory/Radha-repo</url>
+    </snapshotRepository>
+</distributionManagement>
+
+
+
   
   
   <dependencies>
